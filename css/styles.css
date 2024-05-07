@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/pexels-pixabay-278887.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    margin-top: 7rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+}
+
+label {
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+.user-input {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    min-width: 275px;
+    height: 1.7rem;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+button {
+    height: auto;
+    width: auto;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.palindrome-input {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.palindrome-def {
+    border: 1px solid black;
+    margin-top: 4rem;
+    max-width: 350px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.palindrome-def h2 {
+    font-size: 1.25rem;
+    padding-bottom: 1.5rem;
+}
+
+.palindrome-def p {
+    font-size: 1.12rem;
+    line-height: 1.5rem;
+}
