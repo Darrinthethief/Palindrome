@@ -50,14 +50,32 @@ input {
     height: 1.7rem;
     border: none;
     border-bottom: 3px solid black;
+    padding-left: 5px;
+}
+
+input[type=text] {
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 3px;
 }
 
 button {
     height: auto;
     width: auto;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
     padding: 5px;
     border-radius: 5px;
+    background-color: orange;
+}
+
+button:hover {
+    color: orange;
+    background-color: gainsboro;
+}
+
+input:focus {
+    background-color: antiquewhite;
 }
 
 .palindrome-input {
@@ -74,10 +92,16 @@ button {
     color: #fff;
 }
 
+.palindrome {
+    padding-top: 5px;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
 .palindrome-def {
     border: 1px solid black;
     margin-top: 4rem;
-    max-width: 350px;
+    max-width: 365px;
     text-align: justify;
     display: flex;
     flex-direction: column;
@@ -111,7 +135,9 @@ button {
 
 .palindrome-def h2 {
     font-size: 1.25rem;
+    font-weight: 700;
     padding-bottom: 1.5rem;
+    letter-spacing: 5px;
 }
 
 .palindrome-def p {
